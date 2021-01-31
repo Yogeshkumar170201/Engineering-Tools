@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Convertor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.png">
+  </head>
+  <body>
+    
+    <!-- <div class="nav-bar">
+      <div class="nav-logo">
+          <img src="icon.png" style="height: 20px; width: 40px;">
+      </div>
+      
+          <div class="nav-links" id="nav-links">
+              <i class="fa fa-cross" onclick="closeMenu()"></i>
+              <ul>
+                  <a href="index.html"><li>HOME</li></a>
+                  <a href="#"><li>ABOUT</li></a>
+                  <a href="#"><li>CONTACT US</li></a>
+              </ul>
+              <button type="button"class="button">SIGN UP</button>
+          </div>
+          <i class="fa fa-bars" onclick="showMenu()"></i>
+
+      </div> -->
+    <div class="conv">
+      <div class="inputs">
+        <div class="bar">
+          <table>
+            <tbody>
+              <tr>
+                <td><a href="index.html"><img src="icon.png" style="height: 40px;"></a></td>
+                <td><a href="index.html" style="color: black; text-decoration: none;">HOME</a></td>
+                <td>ABOUT</td>
+                <td>CONTACT US</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p style="font-family: sans-serif;font-size: 40px;font-weight: bold;">CONVERTOR</p>
+        <!-- <div class="topbar">
+            <img src="icon.png" class="logo">
+            <h1 class="heading">CONVERTOR</h1>
+        </div> -->
+        <div id="dec">
+          <label><b>DECIMAL NUMBER</b></label>
+          <br>
+          <input type="text" name="number" id="decc" placeholder="Decimal Number" class="numInputs">
+          <button class="convertButton" onclick="Convert_Dec()"><b>CONVERT</b></button>
+        </div>
+          <!-- <div class="choose1">
+            <select name="converting" class="select1">
+              <option value="Binary">Binary</option>
+              <option value="Decimal">Decimal</option>
+              <option value="Hexadecimal">Hexadecimal</option>
+              <option value="Octal">Octal</option>
+            </select>
+            <select name="converting" class="select1">
+              <option value="Binary">Binary</option>
+              <option value="Decimal">Decimal</option>
+              <option value="Hexadecimal">Hexadecimal</option>
+              <option value="Octal">Octal</option>
+            </select>
+
+        </div> -->
+        <div id="bin">
+          <label><b>BINARY NUMBER</b></label>
+          <br>
+          <input type="text" name="number" placeholder="Binary Number" class="numInputs" id="binn">
+          <button class="convertButton" onclick="Convert_Bin()"><b>CONVERT</b></button>
+        </div>
+        <div id="hex">
+          <label><b>HEXADECIMAL NUMBER</b></label>
+          <br>
+          <input type="text" name="number" placeholder="Hexadecimal Number" class="numInputs" id="hexx">
+          <button class="convertButton" onclick="Convert_Hex()"><b>CONVERT</b></button>
+        </div>
+        <div id="oct">
+          <label><b>OCTAL NUMBER</b></label>
+          <br>
+          <input type="text" name="number" placeholder="Octal Number" class="numInputs" id="octt">
+          <button class="convertButton" onclick="Convert_Oct()"><b>CONVERT</b></button>
+        </div>
+        <div class="resetButton">
+          <button onclick="reset()">RESET</button>
+        </div>
+      </div>
+    </div>
+    <script src="javascript.js"></script>
+  </body>
+</html>

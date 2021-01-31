@@ -1,0 +1,145 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1));
+}
+.conv{
+  height: 100vh;
+}
+.logo{
+  height: 50px;
+  /* margin-left:  */
+  /* padding-left: 3%; */
+  /* margin-top: 2%; */
+  /* align-self: flex-end; */
+  position: absolute;
+  top: 3%;
+  left: 3%;
+}
+.heading{
+  position: start;
+  top: 4%;
+  left: 44%;
+  /* align-self: flex-end; */
+}
+
+/* 
+.topbar{
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  width: 100vw;
+} */
+
+.inputs{
+  /* padding: 10%; */
+  padding-bottom: 10%;
+  height: 100vh;
+  /* width: 50vw; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1));
+  /* background-image: linear-gradient(to left, rgba(167, 179, 199, 1.0), rgba(167, 179, 199, 0.8)); */
+  /* position: absolute;
+  top: 20%;
+  left: 25%; */
+}
+/* 
+.choose1{
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.select1{
+  width: 250px;
+  height: 35px;
+  border-radius: 2%;
+  border: 2.5px solid black;
+
+  /* background-color: rgb(250, 208, 117); 
+}
+ */
+.numInputs{
+  width: 310px;
+  height: 35px;
+
+  /* background-color: rgb(250, 208, 117); */
+  border-radius: 2%;
+  border: 2.5px solid black;
+}
+/* ::placeholder{
+  color: rgb(194, 192, 188);
+} */
+
+button{
+  margin-left: 1px;
+  height: 30px;
+  width: 100px;
+  border: 2.5px solid black;
+  border-radius: 2%;
+}
+
+button:hover{
+  /* color:red; */
+  border:2px solid rgb(248, 103, 6);
+  transform: scale(1.1,1.1);
+}
+
+.bar{
+  width: 100vw;
+  height: 50px;
+  /* background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)); */
+  /* color: white; */
+  /* border: 1px solid white; */
+  font-weight: bold;
+  font-family: sans-serif;
+}
+td{
+  width: 10vw;
+  padding: 2%;
+}
+
+td:hover{
+  text-decoration: underline;
+  transition: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  
+  transform: scale(1.1,1.1);
+}
+/* bar tr td:hover::after{
+  width: 100%;
+} */ 
+
+/*
+.nav-bar{
+
+  display: flex;
+  padding: 10px 100px;
+}
+.nav-logo img{
+  width: 10px;
+  height: 10px;
+}
+.nav-links{
+  flex: 1;
+}
+.nav-links ul{
+  margin-left: 50px;
+  display: inline;
+}
+.nav-links ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 8px 25px;
+}
+.nav-links ul li{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 13px;
+}
+*/
